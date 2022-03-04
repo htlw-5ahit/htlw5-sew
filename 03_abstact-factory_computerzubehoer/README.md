@@ -1,0 +1,3 @@
+# Abstract Factory für Computerzubehör
+
+Die Erzeugung von Computerzubehör (Maus, Tastatur, Netzteil, Akku, …) soll vereinheitlicht werden. Weiters soll das irrtümliche Mischen von Produkten verschiedener Hersteller vermieden werden. Apple-Händler sollen nur noch Apple-kompatibles Zubehör erzeugen (können) und Dell-Händler sollen nur noch zu Dell-Geräten kompatibles Zubehör erzeugen (können). Zu diesem Zweck soll das Abstract Factory Entwurfsmuster realisiert werden. Der Client bestimmt beim Programmstart, welcher Fraktion er angehören will und lässt sich eine entsprechende konkrete Fabrik erstellen. Ab diesem Zeitpunkt greift er bei jedem Erzeugungsvorgang auf dieses Singleton zu.
