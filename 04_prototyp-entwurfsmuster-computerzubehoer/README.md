@@ -1,0 +1,3 @@
+# Erzeugung von Computerzubehör gemäß Prototyp-Entwurfsmuster
+
+Um der wachsenden Vielfalt von Computerzubehör Herr zu werden beschließt der Auftraggeber, die erstellte Factory für Computerzubehör auf Prototype umzustellen. Die verfügbaren Typen von Computerzubehör sollen in einer Konfigurationsdatei festgelegt werden. Beim Starten des Programms soll für jeden definierten Typ das entsprechende Prototypobjekt dynamisch erzeugt werden. Dieses Prototypobjekt soll in weiterer Folge geklont und die Kopie an den Aufrufer retourniert werden. Hierdurch soll der Wartungsaufwand an der Fabrik drastisch reduziert werden.
