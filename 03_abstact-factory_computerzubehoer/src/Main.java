@@ -7,12 +7,14 @@ import product.NetworkAdapter;
 public class Main {
 
     public static void main(String[] args) {
-        AbstractFactory factory = FactoryManager.getInstance(FactoryType.DELL);
+        AbstractFactory factory = FactoryManager.getInstance(FactoryType.APPLE);
 
         NetworkAdapter networkAdapter = factory.createNetworkAdapter();
         Mouse mouse = factory.createMouse();
 
         System.out.println(networkAdapter.getType());
         System.out.println(mouse.getType());
+
+        System.out.println(networkAdapter.getClass().getSimpleName());
     }
 }
