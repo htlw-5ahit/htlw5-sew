@@ -1,0 +1,9 @@
+ERROR:	das ist ein fehler!
+INFO:	das ist eine info!
+DEBUG:	Debugging
+ERROR:	das ist ein fehler!
+INFO:	das ist eine info!
+DEBUG:	Debugging
+ERROR:	das ist ein fehler!
+INFO:	das ist eine info!
+DEBUG:	Debugging
