@@ -20,4 +20,9 @@ public abstract class Factory {
     }
 
     public abstract Number getNumber(String s) throws NumberFormatException;
+
+    public Number calculate(String s1, String s2) {
+        Number n1 = getNumber(s1), n2 = getNumber(s2);
+        return n1.doubleValue() + n2.doubleValue();
+    }
 }
