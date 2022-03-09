@@ -7,6 +7,8 @@ public class Main {
         logger.log(LogType.ERROR, "das ist ein fehler!");
         logger.log(LogType.INFO, "das ist eine info!");
 
+        Logger.getInstance().log(LogType.DEBUG, "Debugging");
+
     }
 
 }
