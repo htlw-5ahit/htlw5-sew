@@ -12,8 +12,8 @@ public class Main {
             NetworkAdapter networkAdapter = factory.createNetworkAdapter();
             Mouse mouse = factory.createMouse();
 
-            System.out.println(networkAdapter.getType());
-            System.out.println(mouse.getType());
+            System.out.println(networkAdapter.getClass());
+            System.out.println(mouse.getClass());
 
         } catch (Exception e) {
             throw new RuntimeException(e);

@@ -7,6 +7,7 @@ import java.util.Properties;
 public class FactoryManager {
 
     private static AbstractFactory instance;
+    private static Properties props;
 
     public static AbstractFactory getInstance() {
         return getInstance(FactoryType.APPLE);
@@ -18,7 +19,7 @@ public class FactoryManager {
             synchronized (FactoryManager.class) {
                 if (instance == null) { // check if instance is created
                     try (FileReader reader = new FileReader(propertyFile)) { // try-with-resources => closing stream
-                        Properties props = new Properties(); // create properties object
+                        props = new Properties(); // create properties object
                         props.load(reader); // read from file stream
                         String clsName = props.getProperty("factory"); // get class name from given properties object
                         Class<?> cls = Class.forName(clsName); // get default constructor object
@@ -44,4 +45,7 @@ public class FactoryManager {
         return instance;
     }
 
+    public static Properties getProps() {
+        return props;
+    }
 }

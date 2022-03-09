@@ -1,11 +1,15 @@
 package product.apple;
 
+import product.Component;
 import product.NetworkAdapter;
 
-public class AppleNetworkAdapter implements NetworkAdapter {
+public class AppleNetworkAdapter extends Component implements NetworkAdapter {
 
     private String type;
     private String socket;
+
+    public AppleNetworkAdapter() {
+    }
 
     public AppleNetworkAdapter(String type, String socket) {
         this.type = type;

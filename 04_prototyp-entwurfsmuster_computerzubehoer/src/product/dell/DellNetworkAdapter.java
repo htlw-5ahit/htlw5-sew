@@ -1,11 +1,15 @@
 package product.dell;
 
+import product.Component;
 import product.NetworkAdapter;
 
-public class DellNetworkAdapter implements NetworkAdapter {
+public class DellNetworkAdapter extends Component implements NetworkAdapter {
 
     private String type;
     private String socket;
+
+    public DellNetworkAdapter() {
+    }
 
     public DellNetworkAdapter(String type, String socket) {
         this.type = type;
