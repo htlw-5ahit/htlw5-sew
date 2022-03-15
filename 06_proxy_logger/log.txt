@@ -1,0 +1,15 @@
+ERROR:	2022.03.11 09:58:23 das ist ein fehler!
+INFO:	2022.03.11 09:58:23 das ist eine info!
+DEBUG:	2022.03.11 09:58:23 Debugging
+ERROR:	2022.03.11 10:04:02	das ist ein fehler!
+INFO:	2022.03.11 10:04:02	das ist eine info!
+DEBUG:	2022.03.11 10:04:02	Debugging
+ERROR:	2022.03.11 10:10:15	das ist ein fehler!
+INFO:	2022.03.11 10:10:16	das ist eine info!
+DEBUG:	2022.03.11 10:10:17	Debugging
+ERROR:	2022.03.11 10:11:34		das ist ein fehler!
+INFO:	2022.03.11 10:11:35		das ist eine info!
+DEBUG:	2022.03.11 10:11:36		Debugging
+ERROR:	2022.03.15 12:04:12		das ist ein fehler!
+INFO:	2022.03.15 12:04:13		das ist eine info!
+DEBUG:	2022.03.15 12:04:14		Debugging
