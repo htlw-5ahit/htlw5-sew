@@ -13,3 +13,6 @@ DEBUG:	2022.03.11 10:11:36		Debugging
 ERROR:	2022.03.15 12:04:12		das ist ein fehler!
 INFO:	2022.03.15 12:04:13		das ist eine info!
 DEBUG:	2022.03.15 12:04:14		Debugging
+ERROR:	2022.03.16 12:48:29		das ist ein fehler!
+INFO:	2022.03.16 12:48:30		das ist eine info!
+DEBUG:	2022.03.16 12:48:31		Debugging
