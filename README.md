@@ -7,3 +7,4 @@
 - [Bridge für Logger](05_bridge_logger)
 - [Proxy für Logger](06_proxy_logger)
 - [Adapter für BufferedReader](07_adapter_buffered-reader)
+- [Composite für Verzeichnishierarchie](08_composite_verzeichnishierarchie)
