@@ -39,7 +39,7 @@
 - Ermöglicht einem Objekt, sein Verhalten während der Laufzeit zu verändern
 - Änderung des internen Zustandes
 - Beispiel: TCP-Verbindungen (aufgebaut, horchend, geschlossen)
-- Allen Zuständen haben ine gemeinsame Schnittstelle. Die verschiedenen konkreten State-Klassen implementieren dieses Interface dem jeweiligen Zustand entsprechend.
+- Allen Zuständen haben eine gemeinsame Schnittstelle. Die verschiedenen konkreten State-Klassen implementieren dieses Interface dem jeweiligen Zustand entsprechend.
 
 ![UML Diagramm](https://www.philipphauer.de/study/se/design-pattern/state/beschreibung.svg)
 
