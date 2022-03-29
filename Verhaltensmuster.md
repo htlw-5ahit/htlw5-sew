@@ -1,5 +1,11 @@
 # Verhaltensmuster
 
+- [Chain of Responsibility](#chain-of-responsibility)
+- [Command](#command)
+- [Observer](#observer)
+- [State](#state)
+- [Strategy](#strategy)
+
 ## Chain of Responsibility
 
 - Reduziert die Kopplung zwischen dem Sender einer Nachricht und dem/den Empfänger(n)
