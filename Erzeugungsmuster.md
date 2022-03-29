@@ -1,5 +1,10 @@
 # Erzeugungsmuster
 
+- [Singelton](#singelton)
+- [Factory Method](#factory-method)
+- [Abstract Factory](#abstract-factory)
+- [Prototype](#prototype)
+
 ## Singelton
 
 - Singleton stellt sicher, dass es kein zweites Objekt des selben Typs zum selben Zeitpunkt gibt und dass darauf ein zentraler Zugriff geboten wird.
