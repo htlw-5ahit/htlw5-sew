@@ -21,9 +21,9 @@
 - kompatiblen Stellvertreter für ein dahinter verborgenes Objekt
 - Zugriffe auf das verborgene Objekt erfolgen indirekt über den Proxy
 - Vorteil:
-	- ein entferntes Objekt in einem anderen Adressraum aufgerufen werden soll,
-	- die aufwändige Erzeugung eines Objekts bis zur Verwendung verzögert werden soll,
-	- die Berechtigung vor dem Zugriff auf ein schützenswertes Objekt geprüft werden soll
+	- ein entferntes Objekt in einem anderen Adressraum soll aufgerufen werden 
+	- die aufwändige Erzeugung eines Objekts bis zur Verwendung soll verzögert werden
+	- die Berechtigung vor dem Zugriff auf ein schützenswertes Objekt soll geprüft werden 
 
 ![Proxy UML Diagramm](https://de-academic.com/pictures/dewiki/112/proxy_flexibel.png)
 
@@ -34,7 +34,7 @@
 - Beispiel: TextView (UI-Element) kann als StringBuffer betrachteet werden.
 - Vorteile:
 	- zwei oder mehr inkompatible Typen interagieren 
-	- bestehende inkompatible Funktionalität anderweitig genutzt werden soll
+	- bestehende inkompatible Funktionalität soll anderweitig genutzt werden 
 
 ![Adapter UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Objektadapter.svg/1920px-Objektadapter.svg.png)
 
@@ -43,8 +43,8 @@
 - Schafft ein vereinfachtes Interface auf eine komplexe Struktur mehrerer Objekte/Klassen
 - Vereinfacht die Nutzung
 - Vorteile:
-	- die Komplexität eines Systems vor den Clients verborgen werden soll, oder
-	- lose Kopplung zwischen Clients und dem komplexen System erreicht werden soll
+	- die Komplexität eines Systems vor den Clients soll verborgen werden
+	- lose Kopplung zwischen Clients und dem komplexen System soll erreicht werden
 
 ![Facade Darstellung](https://www.philipphauer.de/study/se/design-pattern/facade/variation.svg)
 
