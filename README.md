@@ -9,3 +9,4 @@
 - [Adapter für BufferedReader](07_adapter_buffered-reader)
 - [Composite für Verzeichnishierarchie](08_composite_verzeichnishierarchie)
 - [Command für StringBuffer](09_command_stringbuffer)
+- [State für Objektbereitstellung](10_state_objektbereitstellung)
