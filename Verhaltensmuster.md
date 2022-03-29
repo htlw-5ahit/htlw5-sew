@@ -47,10 +47,10 @@
 
 - Kapselung von verschiedenen Algorithmen einer Familie
 - Verwendung:
-	- viele verschiedene Klassen sich nur in ihrem Verhalten unterscheiden
-	- verschiedene Varianten eines Algorithmus benötigt werden
-	- ein Algorithmus viele bzw. komplexe Daten benötigt, die vor dem Client verborgen werden sollen
-	- eine (Kontext-)Klasse viele verschiedene Verhalten definiert und dafür viele bedingte Anweisungen (Verzweigungen) verwendet werden
+	- viele verschiedene Klassen unterscheiden sich nur in ihrem Verhalten
+	- verschiedene Varianten eines Algorithmus werden benötigt
+	- ein Algorithmus benötigt viele bzw. komplexe Daten, die vor dem Client verborgen werden sollen
+	- eine (Kontext-)Klasse definiert viele verschiedene Verhalten und verwendet dafür viele bedingte Anweisungen (Verzweigungen)
 - Beispiel: Suchverfahren
 - Ein Interface für alle unterstützten Algorithmen
 
