@@ -20,7 +20,7 @@
 
 - kompatiblen Stellvertreter für ein dahinter verborgenes Objekt
 - Zugriffe auf das verborgene Objekt erfolgen indirekt über den Proxy
-- Vorteil:
+- Vorteile:
 	- ein entferntes Objekt in einem anderen Adressraum soll aufgerufen werden 
 	- die aufwändige Erzeugung eines Objekts bis zur Verwendung soll verzögert werden
 	- die Berechtigung vor dem Zugriff auf ein schützenswertes Objekt soll geprüft werden 
