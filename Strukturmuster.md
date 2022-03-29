@@ -1,5 +1,13 @@
 # Strukturmuster
 
+- [Bridge](#bridge)
+- [Proxy](#proxy)
+- [Adapter](#adapter)
+- [Facade](#facade)
+- [Decorator](#decorator)
+- [Flyweight](#flyweight)
+- [Composite](#composite)
+
 ## Bridge
 
 - Entkopplung zwischen Abstraktion und Implementierung
