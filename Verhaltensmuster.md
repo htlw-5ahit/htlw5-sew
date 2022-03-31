@@ -20,6 +20,7 @@
 - Abläufe werden in Objekten zusammengefasst
 - Festgelegte Abläufe können in Sammlungen (Stack) zusammengefasst und verwaltet werden.
 - Beispiel: Undo-Funktionalität
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/09_command_stringbuffer)
 
 ![UML Diagramm](https://www.philipphauer.de/study/se/design-pattern/command/command-beschreibung.svg)
 
@@ -40,6 +41,7 @@
 - Änderung des internen Zustandes
 - Beispiel: TCP-Verbindungen (aufgebaut, horchend, geschlossen)
 - Allen Zuständen haben eine gemeinsame Schnittstelle. Die verschiedenen konkreten State-Klassen implementieren dieses Interface dem jeweiligen Zustand entsprechend.
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/10_state_objektbereitstellung)
 
 ![UML Diagramm](https://www.philipphauer.de/study/se/design-pattern/state/beschreibung.svg)
 
