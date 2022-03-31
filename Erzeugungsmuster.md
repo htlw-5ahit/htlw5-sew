@@ -15,6 +15,7 @@
 	- Initialisierung der Instanz:
 		- early (sofort beim Start des Programmes => langsamer Programmstart)
 		- lazy (beim ersten Aufruf der Instanz)
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/01_singelton_logging)
 
 ![Singelton UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/250px-Singleton_UML_class_diagram.svg.png)
 
@@ -24,9 +25,10 @@
 - konkrete Erzeugung in Subklassen
 - Rückgabetyp: Basistyp
 - Vorteile:
-	- ein System die konkreten Produkterzeugung nicht vorwegnehmen will
+	- ein System will die konkreten Produkterzeugung nicht vorwegnehmen
 	- die Erben den konkreten Produkttyp bestimmen lassen will
 	- die Erzeugung an eine von mehreren Hilfsklassen (Abstract Factory) delegiert wird und diese Delegation an einer Stelle konzentriert werden soll
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/02_factory-method_zahlen-strings)
 
 ![Factory Method UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fabrikmethode.svg/1920px-Fabrikmethode.svg.png)
 
@@ -40,6 +42,7 @@
 	- ein System eine von mehreren Produktfamilien nutzen soll,
 	- die konkrete Implementierung der Produkte geheim bleiben soll, und
 	- sichergestellt werden soll, dass immer nur Produkte einer Familie gleichzeitig existieren.
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/03_abstact-factory_computerzubehoer)
 
 ![Abstract Factory UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/AbstkrakteFabrik.svg/1024px-AbstkrakteFabrik.svg.png)
 
@@ -47,5 +50,6 @@
 
 - sehr flexible Objekterzeugung
 - Je unterstütztem Typ wird ein Exemplar zur Verfügung gestellt wird, um neue Objekte als Kopie dieses Exemplars zu erzeugen
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/04_prototyp-entwurfsmuster_computerzubehoer)
 
 ![Prototyp UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Prototyp.svg/1920px-Prototyp.svg.png)
