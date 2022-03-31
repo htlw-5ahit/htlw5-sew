@@ -1,3 +1,0 @@
-# Singleton für Logging
-
-In dieser Aufgabe soll das Logging über eine zentrale Instanz für eine ganze Applikation abgewickelt werden. Diese Instanz soll Info-/Warn-/Fehler- und Debug-Meldungen zentral protokollieren. Aktuell sollen die Logeinträge in eine Log-Datei geschrieben werden. In einer späteren Ausbaustufe soll das Loggen über das Netzwerk bzw. in eine Datenbank ergänzt werden. Für die Clients darf sich daraus keine Änderung ergeben. Zu keinem Zeitpunkt der Programmausführung darf es einen alternativen Logger geben → Singleton. Weiters darf nur über diese eine Instanz auf das Log-File zugegriffen werden.
