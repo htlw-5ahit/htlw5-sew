@@ -1,11 +1,11 @@
 # Erzeugungsmuster
 
-- [Singelton](#singelton)
+- [Singleton](#singleton)
 - [Factory Method](#factory-method)
 - [Abstract Factory](#abstract-factory)
 - [Prototype](#prototype)
 
-## Singelton
+## Singleton
 
 - Singleton stellt sicher, dass es kein zweites Objekt des selben Typs zum selben Zeitpunkt gibt und dass darauf ein zentraler Zugriff geboten wird.
 - Vorteile:
@@ -17,7 +17,7 @@
 		- lazy (beim ersten Aufruf der Instanz)
 - [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/01_singelton_logging)
 
-![Singelton UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/250px-Singleton_UML_class_diagram.svg.png)
+![Singleton UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/250px-Singleton_UML_class_diagram.svg.png)
 
 ## Factory Method
 
