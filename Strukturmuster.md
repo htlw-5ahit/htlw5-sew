@@ -13,6 +13,7 @@
 - Entkopplung zwischen Abstraktion und Implementierung
 - Client hat nur Zugriff auf das Bridge-Objekt und dieses ruft das gekapselte Objekt unmittelbar mit identen Parametern auf
 - Es wird weder die Schnittstelle angepasst (Adapter) noch werden zusätzliche Operationen ausgeführt (Proxy).
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/05_bridge_logger)
 
 ![Bridge UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Bridge-pattern.svg/1920px-Bridge-pattern.svg.png)
 
@@ -24,6 +25,7 @@
 	- ein entferntes Objekt in einem anderen Adressraum soll aufgerufen werden 
 	- die aufwändige Erzeugung eines Objekts bis zur Verwendung soll verzögert werden
 	- die Berechtigung vor dem Zugriff auf ein schützenswertes Objekt soll geprüft werden 
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/06_proxy_logger)
 
 ![Proxy UML Diagramm](https://de-academic.com/pictures/dewiki/112/proxy_flexibel.png)
 
@@ -34,7 +36,8 @@
 - Beispiel: TextView (UI-Element) kann als StringBuffer betrachteet werden.
 - Vorteile:
 	- zwei oder mehr inkompatible Typen interagieren 
-	- bestehende inkompatible Funktionalität soll anderweitig genutzt werden 
+	- bestehende inkompatible Funktionalität soll anderweitig genutzt werden
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/07_adapter_buffered-reader)
 
 ![Adapter UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Objektadapter.svg/1920px-Objektadapter.svg.png)
 
@@ -67,6 +70,7 @@
 - Vorteile:
 	- Darstellung von Teil-Ganzes-Beziehungen
 	- Gleichförmige Nutzbarkeit von Komponenten und Container für Clients
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/08_composite_verzeichnishierarchie)
 
 | Klassendiagramm  |  Objektdiagramm |
 |---|---|
