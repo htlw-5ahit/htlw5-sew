@@ -15,7 +15,7 @@
 	- Initialisierung der Instanz:
 		- early (sofort beim Start des Programmes => langsamer Programmstart)
 		- lazy (beim ersten Aufruf der Instanz)
-- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/01_singelton_logging)
+- [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/01_singleton_logging)
 
 ![Singleton UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/250px-Singleton_UML_class_diagram.svg.png)
 
