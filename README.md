@@ -9,7 +9,7 @@
 
 ## Beispiele
 
-- [Singelton für Logging](01_singelton_logging)
+- [Singelton für Logging](01_singleton_logging)
 - [Factory Method für Zahlen zu Strings](02_factory-method_zahlen-strings)
 - [Abstract Factory für Computerzubehör](03_abstact-factory_computerzubehoer)
 - [Prototyp-Entwurfsmuster für Computerzubehör ](04_prototyp-entwurfsmuster_computerzubehoer)
