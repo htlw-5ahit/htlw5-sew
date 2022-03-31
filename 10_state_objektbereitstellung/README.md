@@ -1,0 +1,3 @@
+# Objektbereitstellen in Erzeugungsmustern gemäß State-Entwurfsmuster
+
+Die Bereitstellung von Instanzen erfolgt in Singleton-/Factory-Implementierungen oft zum letztmöglichen Zeitpunkt. Der Erzeugungsvorgang kann als State-Implementierung realisiert werden. Zu Beginn ist eine erzeugende State-Implementierung aktiv. Diese erzeugt beim ersten Aufruf die Singleton-Instanz bzw. alle erforderlichen Prototype-Instanzen. Ab der Erzeugung dieser Instanzen soll die aktuelle State-Instanz durch deren Nachfolger ersetzt werden. Diese State-Implementierung kümmert sich nicht mehr um die Erzeugung, sondern liefert nur noch die bereits erzeugte Singleton-Instanz bzw. einen neuen Klon des entsprechenden, bereits vorhandenen Prototype-Objekts retour. 
