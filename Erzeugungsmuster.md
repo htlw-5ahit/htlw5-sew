@@ -49,7 +49,7 @@
 ## Prototype
 
 - sehr flexible Objekterzeugung
-- Je unterstütztem Typ wird ein Exemplar zur Verfügung gestellt wird, um neue Objekte als Kopie dieses Exemplars zu erzeugen
+- Je unterstütztem Typ wird ein Exemplar zur Verfügung gestellt, um neue Objekte als Kopie dieses Exemplars zu erzeugen
 - [↪ Übungsbeispiel](https://github.com/gayvis/htlw5-sew/tree/main/04_prototyp-entwurfsmuster_computerzubehoer)
 
 ![Prototyp UML Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Prototyp.svg/1920px-Prototyp.svg.png)
